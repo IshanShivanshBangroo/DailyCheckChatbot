@@ -42,7 +42,7 @@ MAX_HISTORY_MESSAGES = 8
 
 st.set_page_config(page_title="Daily Check-in Chatbot")
 st.title(APP_TITLE)
-`# Only short history window is kept so later chat stays coherent without sending an unnecessarily long transcript back to the model.
+# Only short history window is kept so later chat stays coherent without sending an unnecessarily long transcript back to the model.
 # -----------------------------
 # Safety / behavior constraints
 # -----------------------------
